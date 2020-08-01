@@ -1,3 +1,3 @@
 module.exports = {
-  APP_URL: 'https://www.thezimoda.com',
+  APP_URL: "https://zimoda.lk/",
 };
