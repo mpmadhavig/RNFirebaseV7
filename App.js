@@ -1,12 +1,13 @@
 import React, { useEffect } from "react";
-import { View, StyleSheet, Text, Button } from "react-native";
+import { StyleSheet } from "react-native";
 import { fcmService } from "./src/FCMService";
 import { localNotificationService } from "./src/LocalNotificationService";
-import { WebView } from "react-native-webview";
 import AppContainer from "./navigation/AppContainer";
+import SplashScreen from "react-native-splash-screen";
 
 export default function App() {
   useEffect(() => {
+    SplashScreen.hide();
     fcmService.registerAppWithFCM();
     fcmService.register(onRegister, onNotification, onOpenNotification);
     localNotificationService.configure(onOpenNotification);
@@ -34,7 +35,6 @@ export default function App() {
 
     function onOpenNotification(notify) {
       console.log("[App] onOpenNotification: ", notify);
-      alert("Open Notification: " + notify.body);
     }
 
     return () => {
