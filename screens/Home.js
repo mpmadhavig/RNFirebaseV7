@@ -1,13 +1,15 @@
 import React from 'react';
-import {Linking} from 'react-native';
+import {Linking, View} from 'react-native';
 import {WebView} from 'react-native-webview';
 import {APP_URL} from '../links';
+import StatusBarBackground from '../src/iosStatusBarWrapper';
 
 export default class HomeScreen extends React.Component {
   render() {
     const home_url = `${APP_URL}`;
     return (
-      <WebView
+      
+        <WebView
         ref={(ref) => (this.WebView = ref)}
         source={{uri: home_url}}
         onNavigationStateChange={(event) => {
@@ -17,6 +19,7 @@ export default class HomeScreen extends React.Component {
           }
         }}
       />
+      
     );
   }
 }
