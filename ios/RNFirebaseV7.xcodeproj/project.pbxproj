@@ -12,11 +12,11 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		18AB8F412476919300EA3598 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18AB8F402476919300EA3598 /* GoogleService-Info.plist */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* RNFirebaseV7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNFirebaseV7Tests.m */; };
+		362CD9CC24D674FB00704AC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 362CD9CB24D674FB00704AC5 /* GoogleService-Info.plist */; };
 		41A30A66489B5DCE9322C953 /* libPods-RNFirebaseV7-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3952C5F4BB11ECAFD9A71699 /* libPods-RNFirebaseV7-tvOSTests.a */; };
 		4F499FEA350AED271BE5B8DE /* libPods-RNFirebaseV7-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 637BE54B4FE11AEABF1AC63F /* libPods-RNFirebaseV7-tvOS.a */; };
 		54AC1F57AB2648D39C763524 /* libPods-RNFirebaseV7-RNFirebaseV7Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A2DBE657A6ACA3E7C7F69B /* libPods-RNFirebaseV7-RNFirebaseV7Tests.a */; };
@@ -55,9 +55,9 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNFirebaseV7/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNFirebaseV7/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNFirebaseV7/main.m; sourceTree = "<group>"; };
-		18AB8F402476919300EA3598 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* RNFirebaseV7-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RNFirebaseV7-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* RNFirebaseV7-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RNFirebaseV7-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		362CD9CB24D674FB00704AC5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3952C5F4BB11ECAFD9A71699 /* libPods-RNFirebaseV7-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNFirebaseV7-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40A2DBE657A6ACA3E7C7F69B /* libPods-RNFirebaseV7-RNFirebaseV7Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNFirebaseV7-RNFirebaseV7Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AC51C321DC80864E5E4997 /* libPods-RNFirebaseV7.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNFirebaseV7.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,8 +132,8 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
+				362CD9CB24D674FB00704AC5 /* GoogleService-Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
-				18AB8F402476919300EA3598 /* GoogleService-Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = RNFirebaseV7;
@@ -344,7 +344,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				18AB8F412476919300EA3598 /* GoogleService-Info.plist in Resources */,
+				362CD9CC24D674FB00704AC5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
