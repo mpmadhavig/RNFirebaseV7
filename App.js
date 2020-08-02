@@ -4,6 +4,7 @@ import { fcmService } from "./src/FCMService";
 import { localNotificationService } from "./src/LocalNotificationService";
 import AppContainer from "./navigation/AppContainer";
 import SplashScreen from "react-native-splash-screen";
+import StatusBarBackground from './src/iosStatusBarWrapper';
 
 export default function App() {
   useEffect(() => {
@@ -44,20 +45,11 @@ export default function App() {
     };
   }, []);
 
-  const home_url = "https://www.thezimoda.com";
-
   return (
-    <AppContainer />
-    // <WebView
-    //   ref={(ref) => (this.WebView = ref)}
-    //   source={{ uri: home_url }}
-    //   onNavigationStateChange={(event) => {
-    //     if (!event.url.includes(home_url)) {
-    //       this.WebView.stopLoading();
-    //       Linking.openURL(event.url);
-    //     }
-    //   }}
-    // />
+    <React.Fragment>
+        <StatusBarBackground/>
+        <AppContainer />
+    </React.Fragment>
   );
 }
 
