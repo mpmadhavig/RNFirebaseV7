@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>888318028066-nf0jvgf863spffab9k2djncd4pat6b7n.apps.googleusercontent.com</string>
+	<string>869103064228-58809mqs7gpaok9ck31qnrs41okkir44.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.888318028066-nf0jvgf863spffab9k2djncd4pat6b7n</string>
-	<key>ANDROID_CLIENT_ID</key>
-	<string>888318028066-dutk8hbmqj7ui0qdlsg10rjkdlsps4g3.apps.googleusercontent.com</string>
+	<string>com.googleusercontent.apps.869103064228-58809mqs7gpaok9ck31qnrs41okkir44</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDbkeUbncKxFapHRgPzYzEfZdA2qtQWc-8</string>
+	<string>AIzaSyDurxLwVb35XDYUZ6nU2PeUA17SL68U94o</string>
 	<key>GCM_SENDER_ID</key>
-	<string>888318028066</string>
+	<string>869103064228</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.fcscs.fcsmconnectV4</string>
+	<string>com.rnfirebasev7</string>
 	<key>PROJECT_ID</key>
-	<string>rnfirebasev7</string>
+	<string>rnfirebasev7-8ed2f</string>
 	<key>STORAGE_BUCKET</key>
-	<string>rnfirebasev7.appspot.com</string>
+	<string>rnfirebasev7-8ed2f.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -31,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:888318028066:ios:63c3996227cdf38db69d7b</string>
+	<string>1:869103064228:ios:5e34ae50d022e024ef4231</string>
 	<key>DATABASE_URL</key>
-	<string>https://rnfirebasev7.firebaseio.com</string>
+	<string>https://rnfirebasev7-8ed2f.firebaseio.com</string>
 </dict>
 </plist>
