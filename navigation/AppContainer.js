@@ -1,5 +1,5 @@
 import React from "react";
-import { Image } from "react-native";
+import { Image, Platform } from "react-native";
 import { createAppContainer } from "react-navigation";
 import { createBottomTabNavigator } from "react-navigation-tabs";
 import HomeScreen from "../screens/Home";
@@ -81,6 +81,7 @@ const bottomTabNavigator = createBottomTabNavigator(
       style: {
         backgroundColor: "white",
         borderTopWidth: 0,
+        paddingBottom: Platform.OS !== "ios" ? 10 : 0,
         shadowOffset: { width: 5, height: 3 },
         shadowColor: "black",
         shadowOpacity: 0.5,
