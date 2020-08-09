@@ -1,5 +1,5 @@
 import React from "react";
-import { Image } from "react-native";
+import { Image, Platform } from "react-native";
 import { createAppContainer } from "react-navigation";
 import { createBottomTabNavigator } from "react-navigation-tabs";
 import HomeScreen from "../screens/Home";
@@ -16,7 +16,7 @@ const bottomTabNavigator = createBottomTabNavigator(
         tabBarIcon: ({ tintColor }) => (
           <Image
             source={require("../assets/images/home.png")}
-            style={{ height: 40, width: 40, tintColor: tintColor }}
+            style={{ height: 24, width: 24, tintColor: tintColor }}
           />
         ),
       },
@@ -28,7 +28,7 @@ const bottomTabNavigator = createBottomTabNavigator(
         tabBarIcon: ({ tintColor }) => (
           <Image
             source={require("../assets/images/catalog.png")}
-            style={{ height: 40, width: 40, tintColor: tintColor }}
+            style={{ height: 24, width: 28, tintColor: tintColor }}
           />
         ),
       },
@@ -40,7 +40,7 @@ const bottomTabNavigator = createBottomTabNavigator(
         tabBarIcon: ({ tintColor }) => (
           <Image
             source={require("../assets/images/search.png")}
-            style={{ height: 40, width: 40, tintColor: tintColor }}
+            style={{ height: 24, width: 24, tintColor: tintColor }}
           />
         ),
       },
@@ -53,7 +53,7 @@ const bottomTabNavigator = createBottomTabNavigator(
         tabBarIcon: ({ tintColor }) => (
           <Image
             source={require("../assets/images/account.png")}
-            style={{ height: 40, width: 40, tintColor: tintColor }}
+            style={{ height: 24, width: 24, tintColor: tintColor }}
           />
         ),
       },
@@ -66,7 +66,7 @@ const bottomTabNavigator = createBottomTabNavigator(
         tabBarIcon: ({ tintColor }) => (
           <Image
             source={require("../assets/images/cart.png")}
-            style={{ height: 40, width: 40, tintColor: tintColor }}
+            style={{ height: 24, width: 24, tintColor: tintColor }}
           />
         ),
       },
@@ -81,6 +81,7 @@ const bottomTabNavigator = createBottomTabNavigator(
       style: {
         backgroundColor: "white",
         borderTopWidth: 0,
+        paddingBottom: Platform.OS !== "ios" ? 10 : 0,
         shadowOffset: { width: 5, height: 3 },
         shadowColor: "black",
         shadowOpacity: 0.5,
