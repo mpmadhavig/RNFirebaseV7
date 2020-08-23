@@ -82,6 +82,7 @@ const bottomTabNavigator = createBottomTabNavigator(
         backgroundColor: "white",
         borderTopWidth: 0,
         paddingBottom: Platform.OS !== "ios" ? 10 : 0,
+        paddingTop: 0,
         shadowOffset: { width: 5, height: 3 },
         shadowColor: "black",
         shadowOpacity: 0.5,
