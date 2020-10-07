@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "869103064228",
-    "firebase_url": "https://rnfirebasev7-8ed2f.firebaseio.com",
-    "project_id": "rnfirebasev7-8ed2f",
-    "storage_bucket": "rnfirebasev7-8ed2f.appspot.com"
+    "project_number": "572694637328",
+    "firebase_url": "https://zimoda-fashion.firebaseio.com",
+    "project_id": "zimoda-fashion",
+    "storage_bucket": "zimoda-fashion.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:869103064228:android:28d474de3c7e6823ef4231",
+        "mobilesdk_app_id": "1:572694637328:android:e1ab8c6d1bf88fd702d395",
         "android_client_info": {
           "package_name": "com.rnfirebasev7"
         }
       },
       "oauth_client": [
         {
-          "client_id": "869103064228-jk9oou8lfmk008qu5cnsau2uhuubf101.apps.googleusercontent.com",
+          "client_id": "572694637328-ptkg681uf99ap1c6bqahq7cfgn9pfp7s.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDGlG3WgV3ktEq1yJR-hJjG_8m2igu4Mi4"
+          "current_key": "AIzaSyDnHlArIYKaVCyTwRvp2jNibcGloqOschU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "869103064228-jk9oou8lfmk008qu5cnsau2uhuubf101.apps.googleusercontent.com",
+              "client_id": "572694637328-ptkg681uf99ap1c6bqahq7cfgn9pfp7s.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
